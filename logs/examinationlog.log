@@ -1,0 +1,199 @@
+2018-07-12 17:33:00 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-12 17:33:09 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-12 17:40:08 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-12 17:40:16 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-12 17:40:17 ERROR LoginView:81 - java.io.PrintWriter@65b81778
+2018-07-12 17:42:52 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-12 17:42:55 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-12 17:42:57 ERROR LoginView:81 - org.postgresql.util.PSQLException: FATAL: database "examination1" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+	at org.postgresql.Driver.makeConnection(Driver.java:452)
+	at org.postgresql.Driver.connect(Driver.java:254)
+	at java.sql/java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(Unknown Source)
+	at com.nikhil.testengine.util.CommonDAO.setupConnection(CommonDAO.java:18)
+	at com.nikhil.testengine.user.UserDAO.loginUser(UserDAO.java:17)
+	at com.nikhil.testengine.view.LoginView.checkForLogin(LoginView.java:65)
+	at com.nikhil.testengine.view.LoginView$2.actionPerformed(LoginView.java:131)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+
+2018-07-12 17:43:27 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-12 17:43:34 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-17 17:15:08 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-17 17:15:20 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-17 17:16:25 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-18 18:03:35 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-18 18:03:56 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-18 18:04:13 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-18 18:04:21 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-18 18:05:15 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-18 18:05:21 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-18 18:06:41 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-18 18:11:28 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-18 18:11:41 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-18 18:11:57 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-18 18:12:27 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-19 00:00:53 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-07-19 00:01:00 DEBUG LoginView:60 - inside the checkForLogin function of LoginView !
+2018-07-19 00:03:24 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-07-19 00:03:32 DEBUG LoginView:60 - inside the checkForLogin function of LoginView !
+2018-07-19 00:03:55 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-07-19 00:04:02 DEBUG LoginView:60 - inside the checkForLogin function of LoginView !
+2018-07-20 00:20:52 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 00:21:01 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 00:21:10 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 00:42:38 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 00:42:44 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 00:42:57 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 00:51:33 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 00:51:40 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 00:53:34 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 00:53:43 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 00:55:26 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 00:55:33 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 01:01:35 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 01:01:44 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 01:02:48 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 01:02:55 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 01:04:19 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 01:04:28 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 01:04:56 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 01:05:25 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 01:24:45 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 01:24:53 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 19:27:39 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 19:27:48 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 19:28:10 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 19:28:20 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 20:12:57 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 20:13:07 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 20:14:58 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 20:15:05 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-20 20:21:41 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-20 20:21:48 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-21 00:04:19 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-21 00:04:28 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-21 00:08:39 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-21 00:08:48 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-21 00:14:39 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-21 00:14:47 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-21 00:24:12 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-21 00:24:25 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-21 00:27:57 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-21 00:28:05 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-21 00:29:03 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-21 00:29:19 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-22 16:52:06 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 16:52:15 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-22 17:56:56 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 17:57:07 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-22 17:59:14 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 17:59:22 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-22 18:01:06 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 18:01:14 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-22 18:03:09 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 18:03:17 DEBUG LoginView:59 - inside the checkForLogin function of LoginView !
+2018-07-22 18:11:54 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 18:12:01 DEBUG LoginView:61 - inside the checkForLogin function of LoginView !
+2018-07-22 18:46:17 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 18:46:23 DEBUG LoginView:61 - inside the checkForLogin function of LoginView !
+2018-07-22 18:50:22 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 18:50:29 DEBUG LoginView:61 - inside the checkForLogin function of LoginView !
+2018-07-22 18:55:39 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 18:55:47 DEBUG LoginView:61 - inside the checkForLogin function of LoginView !
+2018-07-22 18:55:54 DEBUG LoginView:61 - inside the checkForLogin function of LoginView !
+2018-07-22 19:22:18 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 19:22:34 DEBUG LoginView:61 - inside the checkForLogin function of LoginView !
+2018-07-22 19:32:18 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 19:32:25 DEBUG LoginView:61 - inside the checkForLogin function of LoginView !
+2018-07-22 20:37:54 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 20:44:40 DEBUG LoginView:61 - inside the checkForLogin function of LoginView !
+2018-07-22 20:44:51 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 20:45:01 DEBUG LoginView:61 - inside the checkForLogin function of LoginView !
+2018-07-22 21:25:00 DEBUG LoginView:43 - this is a test logger message for the main function of the login view !
+2018-07-22 21:25:08 DEBUG LoginView:61 - inside the checkForLogin function of LoginView !
+2018-07-22 21:42:05 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-07-22 21:42:13 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-07-22 21:42:33 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-07-22 21:42:45 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-07-22 22:33:53 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-07-22 22:34:02 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-07-23 00:39:45 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-07-23 00:39:56 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-07-23 19:50:40 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-07-23 19:50:51 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-07-27 21:58:21 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-07-27 21:58:29 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-07-27 21:58:47 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-07-27 21:58:58 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-07-27 21:59:55 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-07-27 22:00:06 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-08-05 22:00:51 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-08-05 22:01:02 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-08-05 23:26:22 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-08-05 23:26:30 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:03:45 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-12-07 18:04:34 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:04:42 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:04:56 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-12-07 18:05:04 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:05:16 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:05:23 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:06:00 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:08:10 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:08:53 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-12-07 18:09:50 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:16:01 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-12-07 18:18:03 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:18:31 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-12-07 18:18:43 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:22:36 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-12-07 18:23:43 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:24:56 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-12-07 18:25:39 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:26:01 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-12-07 18:26:30 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:27:38 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-12-07 18:28:02 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
+2018-12-07 18:28:26 DEBUG LoginView:44 - this is a test logger message for the main function of the login view !
+2018-12-07 18:28:40 DEBUG LoginView:63 - inside the checkForLogin function of LoginView !
